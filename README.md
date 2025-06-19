@@ -1,18 +1,21 @@
 #  Inventory Demand Forecasting and Analytics Dashboard
 
 ##  Overview
+<h2>Description</h2>
 This project demonstrates a data-driven approach to forecasting **retail inventory demand** using historical sales data. It combines **Prophet time-series modelling** in Python with a **Power BI dashboard** to visualise actual vs. forecasted sales and prediction intervals. The objective is to support better inventory planning, supply chain optimisation, and fulfilment efficiency.
 
-  Select Stocks and Set Initial Capital: <br/>
-  <img src="https://imgur.com/a/KPNbsIJ.png" height="80%" width="80%" alt="Future sales forecast" />
+<h2>Program Walk-Through:</h2>
+<p align="center">
+  Analyze Weekly sales for store 3: <br/>
+  <img src="https://i.imgur.com/HiJzgKT.png" height="80%" width="80%" alt="Future sales forecast" />
   <br /> <br />
 
-  Analyze Portfolio Performance: <br/>
-  <img src="https://imgur.com/a/TOGtNqv.png" height="80%" width="80%" alt="Store 3 weekly sales" />
+   Future forecast for store 3 Dept 3: <br/>
+  <img src="https://i.imgur.com/S65gyIs.png" height="80%" width="80%" alt="Store 3 weekly sales" />
   <br /> <br />
 
-  Simulate Portfolio Changes Over Time: <br/>
-  <img src="https://imgur.com/a/KY9vOL8.png" height="80%" width="80%" alt="Power Bi Results" />
+  Final analysis Dashboard: <br/>
+  <img src="https://i.imgur.com/9AbkKLF.png" height="80%" width="80%" alt="Power Bi Results" />
 </p>
 
 ---
