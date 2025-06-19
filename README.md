@@ -1,11 +1,11 @@
-# 📦 Inventory Demand Forecasting and Analytics Dashboard
+#  Inventory Demand Forecasting and Analytics Dashboard
 
-## 🔍 Overview
+##  Overview
 This project demonstrates a data-driven approach to forecasting **retail inventory demand** using historical sales data. It combines **Prophet time-series modelling** in Python with a **Power BI dashboard** to visualise actual vs. forecasted sales and prediction intervals. The objective is to support better inventory planning, supply chain optimisation, and fulfilment efficiency.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Forecast weekly sales for a specific store and department using Prophet
 - Visualise actual vs. forecasted values to evaluate model performance
 - Display confidence intervals to highlight forecast uncertainty
@@ -13,7 +13,7 @@ This project demonstrates a data-driven approach to forecasting **retail invento
 
 ---
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 
 | Tool        | Purpose                                 |
 |-------------|------------------------------------------|
@@ -25,7 +25,7 @@ This project demonstrates a data-driven approach to forecasting **retail invento
 | **DAX**     | Power BI measures (e.g., forecast error) |
 
 ---
-## 📁 Project Structure
+##  Project Structure
 
 Inventory-Forecast-Project/
 │
@@ -44,23 +44,23 @@ Inventory-Forecast-Project/
 │ └── README.md # This file
 
 ---
-## 📈 Key Features
-- 📊 **Forecast vs. Actual Sales** with dual Y-axes comparison
-- 🎯 **Forecast Confidence Bands** visualised using shaded areas
-- 📉 **Forecast Error Analysis** using custom DAX measures
-- 📅 Interactive slicing by time periods
-- 🧠 Business-focused insights to support supply chain and inventory decisions
+##  Key Features
+-  **Forecast vs. Actual Sales** with dual Y-axes comparison
+-  **Forecast Confidence Bands** visualised using shaded areas
+-  **Forecast Error Analysis** using custom DAX measures
+-  Interactive slicing by time periods
+-  Business-focused insights to support supply chain and inventory decisions
 
 ---
 
-## 📈 Results
+##  Results
 - Prophet accurately captured seasonality and trend
 - Confidence bands visualised to reflect model uncertainty
 - A clear Power BI dashboard was built for stakeholder insights
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone or download this repository
 2. Open and run `prophet_forecast.ipynb` in Jupyter to generate `forecast_output.csv`
@@ -69,14 +69,14 @@ Inventory-Forecast-Project/
 
 ---
 
-## 📌 Insights & Use Cases
+##  Insights & Use Cases
 - Supports inventory managers in determining **reorder points**
 - Useful in **warehouse planning**, **retail forecasting**, and **demand analysis**
 - Adaptable to multi-SKU, multi-store setups or broader logistics scenarios
 
 ---
 
-## 📚 Acknowledgements
+##  Acknowledgements
 - Dataset: Walmart Store Sales Forecasting (Kaggle)
 - Forecasting model: [`prophet`](https://pypi.org/project/prophet/) (Stan-based, Python library)
 
